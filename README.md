@@ -4,8 +4,8 @@ A small Demo to show how Pinvoke can be used to make .Net Core Faster
 Its very easy to call a C function from the C# code:
 
 ```C#
-            [DllImport("/root/pinvoke/sort.so",EntryPoint="_Z9quickSortPiii")]
-            static extern void sort(int[] handle, int start, int stop);
+[DllImport("/root/pinvoke/sort.so",EntryPoint="_Z9quickSortPiii")]
+static extern void sort(int[] handle, int start, int stop);
 ```
 
 Qsort code is from here:

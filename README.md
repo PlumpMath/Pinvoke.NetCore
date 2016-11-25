@@ -1,5 +1,5 @@
 # Pinvoke.NetCore
-A small Demo to show how Pinvoke can be used to make .Net Core Faster
+This a small Demo to show how Pinvoke can be used to make .Net Core Faster. Basically you have a C# and C version of the quicksort algorithm. They are written identically, but the compiler can spit out what it wants to. 
 
 Its very easy to call a C function from the C# code:
 
